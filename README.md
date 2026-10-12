@@ -49,7 +49,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
 
  ### Görev 3
  * Her endpointin hata fırlatabileceği senaryolar düşünülmeli ```exceptions``` paketi altına bu Error sınıfları oluşturulmalı.
- * ```exceptions``` paketi altına hata mesajlarını dönmek için ```ApiResponseError``` sınıfını ekleyiniz.
+ * ```exceptions``` paketi altına hata mesajlarını dönmek için ```ApiErrorResponse``` sınıfını ekleyiniz.
  * ```exceptions``` paketi altına hata hataları yakalayamabilmek için ```ApiException``` sınıfını ekleyiniz.
  * ```exceptions``` paketi altına ```GlobalExceptionHandler``` adında tüm hataları yöneten bir sınıf ekleyiniz. 
  * Error Handling Global bir merkezden yönetilmeli. Controller sınıflarının altında olmamalı.
